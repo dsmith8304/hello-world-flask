@@ -1,9 +1,0 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/', methods=['GET'])
-def root():
-    return "Hello World!"
-
-application = app
